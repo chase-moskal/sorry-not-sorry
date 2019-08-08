@@ -1,0 +1,42 @@
+{
+	"name": "sorry-not-sorry",
+	"version": "0.0.0-dev.0",
+	"description": "prompt legacy browsers to upgrade",
+	"license": "ISC",
+	"author": "Chase Moskal <chasemoskal@gmail.com>",
+	"type": "module",
+	"main": "dist/sorry.js",
+	"files": [
+		"dist"
+	],
+	"scripts": {
+		"prepare": "run-s clean build test",
+		"clean": "rimraf dist && mkdirp dist",
+		"build": "run-p copycode",
+		"copycode": "ncp source dist",
+		"test": "exit 0",
+		"start": "serve"
+	},
+	"keywords": [
+		"legacy",
+		"popup",
+		"browsers",
+		"sorry"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/chase-moskal/sorry-not-sorry.git"
+	},
+	"bugs": {
+		"url": "https://github.com/chase-moskal/sorry-not-sorry/issues"
+	},
+	"homepage": "https://github.com/chase-moskal/sorry-not-sorry#readme",
+	"devDependencies": {
+		"mkdirp": "^0.5.1",
+		"ncp": "^2.0.0",
+		"npm-run-all": "^4.1.5",
+		"rimraf": "^2.6.3",
+		"serve": "^11.1.0"
+	},
+	"dependencies": {}
+}

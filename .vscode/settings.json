@@ -1,0 +1,27 @@
+{
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+
+	"files.eol": "\n",
+	"files.encoding": "utf8",
+	"files.insertFinalNewline": true,
+
+	"files.exclude": {
+		"dist": false,
+		"package-lock.json": false,
+		"coverage": true,
+		"node_modules": true,
+		"*.log*": true
+	},
+
+	"search.exclude": {
+		"dist": true
+	},
+
+	"lit-plugin.skipUnknownTags": true,
+	"lit-plugin.skipUnknownAttributes": true,
+	"lit-plugin.skipUnknownProperties": true,
+	"lit-plugin.skipUnknownSlots": true,
+	"lit-plugin.skipMissingImports": true,
+	"lit-plugin.skipTypeChecking": true
+}
