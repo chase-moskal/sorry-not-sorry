@@ -1,5 +1,5 @@
 
-# 💬 sorry-not-sorry
+# sorry-not-sorry 💬
 ## prompt legacy browsers to upgrade
 
 ![](assets/sorry-not-sorry-example.jpg)
