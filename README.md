@@ -1,13 +1,15 @@
 
-# 😞 sorry-not-sorry
+# 💬 sorry-not-sorry
 ## prompt legacy browsers to upgrade
 
 ![](assets/sorry-not-sorry-example.jpg)
 
-`sorry-not-sorry`'s job is simple
+`sorry-not-sorry` has a simple job
 
 1. call anything that [can't handle arrow functions](https://caniuse.com/#feat=arrow-functions) a 'legacy' browser (ie11)
 2. present legacy browsers with the popup which suggests they upgrade
+
+[🗲 live demo](https://chasemoskal.com/sorry-not-sorry/#sorry-force-legacy)
 
 ## install and use sorry-not-sorry
 
