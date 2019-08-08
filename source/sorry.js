@@ -51,6 +51,7 @@
 		var style = document.createElement("style")
 		style.textContent = ''
 			+ '.sorry-popup {'
+			+ '  z-index: 9999;'
 			+ '  position: absolute;'
 			+ '  font-size: 21px;'
 			+ '  top: 0;'
@@ -63,6 +64,7 @@
 			+ '  background: rgba(64,64,64, 0.8);'
 			+ '}'
 			+ '.sorry-popup .sorry-plate {'
+			+ '  z-index: 9999;'
 			+ '  position: absolute;'
 			+ '  top: 5%;'
 			+ '  left: 10%;'
