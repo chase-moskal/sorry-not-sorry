@@ -1,6 +1,6 @@
 {
 	"name": "sorry-not-sorry",
-	"version": "0.0.0-dev.1",
+	"version": "0.0.0-dev.2",
 	"description": "prompt legacy browsers to upgrade",
 	"license": "ISC",
 	"author": "Chase Moskal <chasemoskal@gmail.com>",
