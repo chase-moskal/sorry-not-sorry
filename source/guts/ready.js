@@ -1,5 +1,5 @@
 
-function ready(func) {
+var ready = config.ready || function ready(func) {
 	if (document.body) func()
 	else {
 		var done = false

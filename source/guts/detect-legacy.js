@@ -1,5 +1,5 @@
 
-function detectLegacy() {
+var detectLegacy = config.detectLegacy || function detectLegacy() {
 	try {
 		eval("const foo=x=>x+1")
 		return false

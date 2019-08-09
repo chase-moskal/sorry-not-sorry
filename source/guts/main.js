@@ -1,5 +1,5 @@
 
-function sorryMainRoutine() {
+function main() {
 
 	// detect legacy browsers
 	var legacy = detectLegacy()

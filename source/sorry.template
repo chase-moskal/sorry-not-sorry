@@ -1,10 +1,12 @@
 
-({{{ready}}})(function() {
+(function() {
+	var config = window.sorryConfig || {}
 
-	{{{icons}}}
 	{{{detectLegacy}}}
+	{{{icons}}}
 	{{{createSorryPopup}}}
-	{{{sorryMainRoutine}}}
+	{{{ready}}}
+	{{{main}}}
 
-	sorryMainRoutine()
-})
+	ready(main)
+})()

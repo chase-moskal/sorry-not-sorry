@@ -21,7 +21,7 @@ async function main() {
 		ready: await readText("source/guts/ready.js"),
 		detectLegacy: await readText("source/guts/detect-legacy.js"),
 		createSorryPopup: await readText("source/guts/create-sorry-popup.js"),
-		sorryMainRoutine: await readText("source/guts/sorry-main-routine.js"),
+		main: await readText("source/guts/main.js"),
 
 		// icon images as data uri's
 		icons: "var icons = (" + JSON.stringify({
