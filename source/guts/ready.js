@@ -1,11 +1,11 @@
 
 function ready(func) {
-	if (document.readyState !== "loading") func()
+	if (document.body) func()
 	else {
 		var done = false
 		document.addEventListener("readystatechange", function() {
 			if (done) return
-			if (document.readyState !== "loading") {
+			if (document.body) {
 				done = true
 				func()
 			}
