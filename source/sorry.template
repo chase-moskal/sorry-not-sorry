@@ -1,0 +1,10 @@
+
+({{{ready}}})(function() {
+
+	{{{icons}}}
+	{{{detectLegacy}}}
+	{{{createSorryPopup}}}
+	{{{sorryMainRoutine}}}
+
+	sorryMainRoutine()
+})
